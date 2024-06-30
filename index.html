@@ -117,6 +117,31 @@
 </section>
 <!-- End paper abstract -->
 
+<div class="columns is-centered has-text-centered">
+  <div class="column is-four-fifths">
+    <div class="content has-text-justified">
+      <p style="text-align:center;">
+        <img src="static/images/dspr.png" alt="MY ALT TEXT" width="50%" height="50%"/>
+      </p>
+      <p>
+        # Introduction
+
+        Image Super-Resolution (SR) techniques are crucial in image processing, enabling the reconstruction of high-resolution (HR) images from low-resolution (LR) counterparts. These techniques have diverse applications, from enhancing consumer photography to improving satellite and medical imagery. However, training SR models requires significant computational resources and large-scale datasets to capture the diversity of textures and patterns essential for effective upscaling.
+        
+        Despite recent advancements in deep learning that have improved SR techniques, the resource-intensive nature of training these models remains a challenge. Models like SwinIR and HAT have set new benchmarks, but their success often depends on extensive and diverse training data. To address these challenges, our work explores dataset pruning as a strategy to enhance the efficiency of SR model training without compromising output quality.
+        
+        Our contribution is twofold. First, we propose a novel loss-value-based sampling method for dataset pruning in image SR, leveraging a simple pre-trained SR model, SRCNN. Unlike traditional approaches that use the entirety of available data, our method selectively identifies the most informative samples. Second, we demonstrate that training SR models on a pruned dataset, comprising 50% of the original data selected based on their loss values, can achieve comparable or superior performance to training on the full dataset. Refining this selection by excluding the top 5% hardest samples further enhances training efficiency.
+        
+        Through this work, we aim to shift how training datasets are curated for SR tasks, advocating for a loss-value-driven approach to dataset pruning. This strategy significantly reduces storage requirements and offers a scalable solution adaptable to the evolving complexities and requirements of image SR.
+</p>
+
+<div class="columns is-centered has-text-centered">
+  <div class="column is-four-fifths">
+    <div class="content has-text-justified">
+      <p style="text-align:center;">
+        <img src="static/images/dspr.png" alt="MY ALT TEXT" width="50%" height="50%"/>
+      </p>
+      <p>
 
 <!--BibTex citation -->
   <section class="section" id="BibTeX">
